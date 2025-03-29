@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverDB1", "DriverDB1\DriverDB1\DriverDB1.csproj", "{1D995211-3FE4-4C84-B646-4F9ADB34089F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverDB1.Desktop", "DriverDB1\DriverDB1.Desktop\DriverDB1.Desktop.csproj", "{0EBFBA79-5202-45CC-9D45-C09797DB9BD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D995211-3FE4-4C84-B646-4F9ADB34089F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D995211-3FE4-4C84-B646-4F9ADB34089F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D995211-3FE4-4C84-B646-4F9ADB34089F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D995211-3FE4-4C84-B646-4F9ADB34089F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBFBA79-5202-45CC-9D45-C09797DB9BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBFBA79-5202-45CC-9D45-C09797DB9BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBFBA79-5202-45CC-9D45-C09797DB9BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBFBA79-5202-45CC-9D45-C09797DB9BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
