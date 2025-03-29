@@ -8,5 +8,11 @@
         x:Class="DriverDB1.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="DriverDB1">
-        <views:MainView />
+        <Grid RowDefinitions="50, *">
+                <StackPanel Orientation="Horizontal" Grid.Row="0">
+                        <Label Content="Добро пожаловать!"/>
+                        <Button Content="Выход" Name="ExitBtn" Click="ExitBtn_OnClick"/>
+                </StackPanel>
+                <ContentControl Name="MainCC"/>
+        </Grid>
 </Window>
