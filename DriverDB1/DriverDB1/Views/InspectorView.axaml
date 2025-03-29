@@ -4,5 +4,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="DriverDB1.Views.InspectorView">
-
+    <Grid RowDefinitions="*, 50">
+        <DataGrid Name="MainDG" AutoGenerateColumns="True" Grid.Row="0"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Button Content="Добавить" Name="AddBtn" Click="AddBtn_OnClick"/>
+            <Button Content="Изменить" Name="RemakeBtn" Click="RemakeBtn_OnClick"/>
+            <Button Content="Удалить" Name="DeleteBtn" Click="DeleteBtn_OnClick"/>
+        </StackPanel>
+    </Grid>
 </UserControl>
