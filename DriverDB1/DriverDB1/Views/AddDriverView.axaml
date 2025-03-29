@@ -1,0 +1,50 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="DriverDB1.Views.AddDriverView">
+    <ScrollViewer>
+        <StackPanel Name="AddSp">
+            <Label Content="Id"/>
+            <TextBox IsEnabled="False" IsReadOnly="True" Text="{Binding Id}"/>
+            <Label Content="Guid"/>
+            <TextBox Name="GuidTb" Text="{Binding Guid}"/>
+            <Label Content="Имя"/>
+            <TextBox Name="NameTb" Text="{Binding Name}"/>
+            <Label Content="Фамилия"/>
+            <TextBox Name="SurnameTb" Text="{Binding Surname}"/>
+            <Label Content="Patronimic"/>
+            <TextBox Name="PatronimicTb" Text="{Binding Patronimic}"/>
+            <Label Content="Серия паспорта"/>
+            <TextBox Name="PassportSerialTb" Text="{Binding PassportSerial}"/>
+            <Label Content="Номер паспорта"/>
+            <TextBox Name="PassportNumberTb" Text="{Binding PassportNumber}"/>
+            <Label Content="Город регистрации"/>
+            <TextBox Name="RegistrationCityTb" Text="{Binding RegistrationCity}"/>
+            <Label Content="Адресс регистрации"/>
+            <TextBox Name="RegistrationAddress" Text="{Binding RegistrationAddress}"/>
+            <Label Content="Город проживания"/>
+            <TextBox Name="LivingCity" Text="{Binding LivingCity}"/>
+            <Label Content="Адресс проживания"/>
+            <TextBox Name="LivingAddressTb" Text="{Binding LivingAddress}"/>
+            <Label Content="Место работы"/>
+            <TextBox Name="WorkPlaceTb" Text="{Binding WorkPlace}"/>
+            <Label Content="Профессия"/>
+            <TextBox Name="WorkRoleTb" Text="{Binding WorkRole}"/>
+            <Label Content="Номер телефона"/>
+            <TextBox Name="MobPhoneTb" Text="{Binding MobPhone}"/>
+            <Label Content="Email"/>
+            <TextBox Name="EmailTb" Text="{Binding Email}"/>
+            <Label Content="Описание"/>
+            <TextBox Name="DescriptionTb" Text="{Binding Description}"/>
+            <Label Content="Фотография"/>
+            <Image Name="DriverPhoto" Width="50" Height="50"/>
+            <Button Content="Обзор..." Name="OpenImageBtn" Click="OpenImageBtn_OnClick"/>
+        <StackPanel>
+            <Button Name="AddBtn" Content="Добавить" Click="AddBtn_OnClick"/>
+            <Button Name="OtmBtn" Content="Отмена" Click="OtmBtn_OnClick"/>
+        </StackPanel>     
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

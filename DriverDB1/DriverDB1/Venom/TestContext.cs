@@ -94,7 +94,6 @@ public partial class TestContext : DbContext
 
             entity.HasOne(d => d.Photo).WithOne(p => p.Driver)
                 .HasForeignKey<Driver>(d => d.PhotoId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("photoFR");
         });
 

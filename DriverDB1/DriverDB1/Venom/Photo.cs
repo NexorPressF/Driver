@@ -7,7 +7,7 @@ public partial class Photo
 {
     public int Id { get; set; }
 
-    public byte[] Photo1 { get; set; } = null!;
+    public byte[]? Photo1 { get; set; }
 
     public virtual Driver? Driver { get; set; }
 }

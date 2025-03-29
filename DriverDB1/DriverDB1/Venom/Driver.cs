@@ -35,9 +35,9 @@ public partial class Driver
 
     public string Email { get; set; } = null!;
 
-    public int PhotoId { get; set; }
+    public int? PhotoId { get; set; }
 
     public string Description { get; set; } = null!;
 
-    public virtual Photo Photo { get; set; } = null!;
+    public virtual Photo? Photo { get; set; }
 }

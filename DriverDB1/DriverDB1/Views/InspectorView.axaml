@@ -8,7 +8,7 @@
         <DataGrid Name="MainDG" AutoGenerateColumns="True" Grid.Row="0"/>
         <StackPanel Orientation="Horizontal" Grid.Row="1">
             <Button Content="Добавить" Name="AddBtn" Click="AddBtn_OnClick"/>
-            <Button Content="Изменить" Name="RemakeBtn" Click="RemakeBtn_OnClick"/>
+            <Button Content="Обзор" Name="ObZBtn" Click="ObZBtn_OnClick"/>
             <Button Content="Удалить" Name="DeleteBtn" Click="DeleteBtn_OnClick"/>
         </StackPanel>
     </Grid>
