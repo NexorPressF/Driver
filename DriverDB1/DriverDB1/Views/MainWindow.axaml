@@ -13,6 +13,6 @@
                         <Label Content="Добро пожаловать!"/>
                         <Button Content="Выход" Name="ExitBtn" Click="ExitBtn_OnClick"/>
                 </StackPanel>
-                <ContentControl Name="MainCC"/>
+                <ContentControl Name="MainCC" Grid.Row="1"/>
         </Grid>
 </Window>
